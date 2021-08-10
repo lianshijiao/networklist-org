@@ -6,33 +6,28 @@ Example:
 
 ```javascript
 {
-    "name": "xDAI Chain",
+    "app_resource": {
+        "color_chain_bg": "0x58B2AF",
+        "ic_chain_select": "http://www.zdtchain.com/static/img/logo.4e5676f.png",
+        "ic_chain_unselect": "http://www.zdtchain.com/static/img/logo.4e5676f.png"
+    },
+    "chain": "ZDT",
     "chainId": 100,
-    "shortName": "xdai",
-    "chain": "XDAI",
+    "faucets": [],
+    "infoURL": "http://www.zdtchain.com",
+    "name": "ZDT Chain",
+    "nativeCurrency": {
+        "decimals": 8,
+        "name": "ZDT",
+        "symbol": "ZDT"
+    },
     "network": "mainnet",
     "networkId": 100,
-    "nativeCurrency": {
-        "name": "xDAI",
-        "symbol": "xDAI",
-        "decimals": 18
-    },
     "rpc": [
-        "https://rpc.xdaichain.com",
-        "https://xdai.poanetwork.dev",
-        "wss://rpc.xdaichain.com/wss",
-        "wss://xdai.poanetwork.dev/wss",
-        "http://xdai.poanetwork.dev",
-        "https://dai.poa.network",
-        "ws://xdai.poanetwork.dev:8546"
+        "http://api.zdtchain.com",
+        "http://rpc.zdtchain.com:8888"
     ],
-    "faucets": [],
-    "infoURL": "https://forum.poa.network/c/xdai-chain",
-    "app_resource": {
-        "ic_chain_select": "https://tp-upload.cdn.bcebos.com/v1/blockChain/xDAI/1.png",
-        "ic_chain_unselect": "https://tp-upload.cdn.bcebos.com/v1/blockChain/xDAI/0.png",
-        "color_chain_bg": "0x58B2AF"
-    }
+    "shortName": "ZDT"
 }
 ```
 
